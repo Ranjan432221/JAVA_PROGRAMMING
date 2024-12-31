@@ -6,15 +6,10 @@ import java.util.Arrays;
 public class Double_Dimension_6 {
     public static void main(String[] args) {
 
-        int intArr[] = { 10, 20, 15, 22, 35 };
+      int arr[] = {45,879,98,90};
+      System.out.println("here is a java programming using the print of the language"+Arrays.toString(arr));
 
-        System.out.println("Integer Array: "
-                + Arrays.toString(intArr));
-
-        System.out.println("\nNew Arrays by copyOf:\n");
-
-        System.out.println("Integer Array: "
-                + Arrays.toString(
-                        Arrays.copyOf(intArr, 10)));
+      System.out.println("here is a new create of the copyOf in java programming");
+      System.out.println("here is  the copyOf programming using in this programm"+Arrays.toString(Arrays.copyOf(arr,11)));
     }
 }
