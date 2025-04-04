@@ -8,9 +8,9 @@ class MainDistinct {
     System.out.print(arr[0]+" ");
       
   
-      for(int j = 1; j < arr.length; j++) {
-          if(arr[j] != arr[j-1]) {
-             System.out.print(arr[j]+" ");
+      for(int k = 1; k < arr.length; k++) {
+          if(arr[k] != arr[k-1]) {
+             System.out.print(arr[k]+" ");
           }
          
       }
